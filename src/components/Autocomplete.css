@@ -1,0 +1,38 @@
+.container {
+    width: 400px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.autocomplete-input {
+    font-size: 1.2rem;
+    padding: 12px;
+    text-transform: uppercase;
+    border-radius: 2px;
+}
+
+.options-container {
+    border: solid 1px black;
+}
+
+.autocomplete-option {
+    font-size: 1rem;
+    padding: 8px;
+}
+
+.autocomplete-option:hover {
+    background-color: lightslategray;
+    color: white;
+    cursor: pointer;
+}
+
+.highlight {
+    font-weight: bold;
+}
+
+.empty-text {
+    font-size: 1rem;
+    text-align: center;
+    padding: 8px;
+}
